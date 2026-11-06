@@ -1,0 +1,20 @@
+{
+    "model": "VisionGuard_Baseline_CNN",
+    "test_images": 148,
+    "correct_predictions": 97,
+    "incorrect_predictions": 51,
+    "accuracy": 0.6554054054054054,
+    "classification_threshold": 0.5,
+    "categories": {
+        "incorrect_real": 38,
+        "incorrect_ai": 13,
+        "correct_ai": 69,
+        "correct_real": 28
+    },
+    "analysis": {
+        "real_correct": 28,
+        "real_misclassified_as_ai": 38,
+        "ai_correct": 69,
+        "ai_misclassified_as_real": 13
+    }
+}
