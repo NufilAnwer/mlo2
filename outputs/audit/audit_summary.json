@@ -1,0 +1,20 @@
+{
+    "project": "23L-0532_A2_Ops",
+    "dataset_directory": "data/raw",
+    "total_images": 973,
+    "valid_images": 973,
+    "corrupt_images": 0,
+    "unique_valid_hashes": 972,
+    "duplicate_groups": 1,
+    "duplicate_files_in_groups": 2,
+    "class_counts": {
+        "AiArtData": 539,
+        "RealArt": 434
+    },
+    "format_counts": {
+        "JPEG": 830,
+        "PNG": 143
+    },
+    "total_size_bytes": 503177581,
+    "total_size_mb": 479.87
+}

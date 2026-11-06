@@ -1,0 +1,18 @@
+Layer,Type,Output Shape,Parameters
+input_image,InputLayer,"(None, 160, 160, 3)",0
+rescaling,Rescaling,"(None, 160, 160, 3)",0
+data_augmentation,Sequential,"(None, 160, 160, 3)",0
+conv2d_1,Conv2D,"(None, 160, 160, 32)",896
+batch_normalization_1,BatchNormalization,"(None, 160, 160, 32)",128
+max_pooling_1,MaxPooling2D,"(None, 80, 80, 32)",0
+conv2d_2,Conv2D,"(None, 80, 80, 64)",18496
+batch_normalization_2,BatchNormalization,"(None, 80, 80, 64)",256
+max_pooling_2,MaxPooling2D,"(None, 40, 40, 64)",0
+conv2d_3,Conv2D,"(None, 40, 40, 128)",73856
+batch_normalization_3,BatchNormalization,"(None, 40, 40, 128)",512
+max_pooling_3,MaxPooling2D,"(None, 20, 20, 128)",0
+global_average_pooling,GlobalAveragePooling2D,"(None, 128)",0
+dropout_1,Dropout,"(None, 128)",0
+dense_1,Dense,"(None, 64)",8256
+dropout_2,Dropout,"(None, 64)",0
+output,Dense,"(None, 1)",65

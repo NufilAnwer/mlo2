@@ -1,0 +1,2 @@
+model,image_size,batch_size,test_images,test_loss,accuracy,precision,recall,f1_score,auc
+VisionGuard_Baseline_CNN,160x160,4,148,0.6026219129562378,0.6554054054054054,0.6448598130841121,0.8414634146341463,0.7301587301587301,0.7463968992233276

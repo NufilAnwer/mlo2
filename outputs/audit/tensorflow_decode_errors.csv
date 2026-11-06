@@ -1,0 +1,3 @@
+split,filepath,error
+train,data/raw/RealArt/RealArt/girl-with-a-pearl-earring-c-16.jpg,{{function_node __wrapped__DecodeImage_device_/job:localhost/replica:0/task:0/device:CPU:0}} jpeg::Uncompress failed. Invalid JPEG data or crop window. [Op:DecodeImage] name: 
+test,data/raw/RealArt/RealArt/pleaser.jpeg,"{{function_node __wrapped__DecodeImage_device_/job:localhost/replica:0/task:0/device:CPU:0}} OOM when allocating tensor with shape[5663,8495,3] and type uint8 on /job:localhost/replica:0/task:0/device:CPU:0 by allocator mklcpu [Op:DecodeImage] name: "

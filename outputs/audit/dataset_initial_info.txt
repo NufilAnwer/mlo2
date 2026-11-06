@@ -1,0 +1,12 @@
+Project: 23L-0532_A2_Ops
+Dataset: AI Generated Images vs Real Images
+
+Source: C:\Users\hassa\Downloads\AI_Dataset
+
+Classes:
+AiArtData = 539
+RealArt = 436
+
+Total Images = 975
+
+Dataset copied into data/raw.

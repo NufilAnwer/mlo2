@@ -1,0 +1,38 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.log
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Dataset and DVC-managed data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/figures/
+!outputs/reports/
+!outputs/audit/
+
+# Model artifacts
+models/*.keras
+models/*.h5
+models/*.pkl
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak

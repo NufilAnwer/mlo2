@@ -1,0 +1,14 @@
+{
+    "total_valid_images": 973,
+    "class_distribution": {
+        "AiArtData": 539,
+        "RealArt": 434
+    },
+    "format_distribution": {
+        "JPEG": 830,
+        "PNG": 143
+    },
+    "average_width": 1239.34,
+    "average_height": 941.49,
+    "average_file_size_mb": 0.493
+}
