@@ -48,3 +48,6 @@ venv/
 *.sqlite3
 instance/
 .dvc/cache/
+/models/task_3_3_mobilenetv2_best.keras
+/models/task_3_3_mobilenetv2_final.keras
+/outputs/mlflow/task_3_5/checkpoints/
