@@ -1,4 +1,4 @@
-
+import os
 import random
 from pathlib import Path
 
@@ -16,11 +16,14 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DATABASE_PATH = PROJECT_DIR / "mlflow.db"
 
-TRACKING_URI = (
+TRACKING_URI = os.getenv(
+    "MLFLOW_TRACKING_URI",
     f"sqlite:///{DATABASE_PATH.as_posix()}"
 )
 
-EXPERIMENT_NAME = "VisionGuard_Task_3_1_Toy_Keras"
+
+
+EXPERIMENT_NAME = "VisionGuard_Task_3_2_DagsHub_Toy_Keras"
 
 EPOCHS = 3
 BATCH_SIZE = 128
@@ -324,6 +327,7 @@ def main():
         )
 
     print("\n========== TASK 3.1 COMPLETED ==========")
+    print("\n========== TASK 3.2: DAGSHUB MLFLOW ==========")
 
     print("Tracking database:", DATABASE_PATH)
     print("Experiment:", EXPERIMENT_NAME)
