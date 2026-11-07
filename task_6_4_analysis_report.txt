@@ -1,0 +1,49 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20261107184643
+Username: HP\HP
+RunAs User: HP\HP
+Configuration Name:
+Machine: HP (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\hassa\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 24728
+PSVersion: 5.1.26100.9818
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9818
+BuildVersion: 10.0.26100.9818
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is task_6_4_analysis_report.txt
+
+STEP 1: Largest installed Python packages
+
+
+STEP 2: TensorFlow package information
+
+
+STEP 3: Installed Python packages
+
+
+STEP 4: Current Docker image size
+Before optimization: 2186.29 MB
+
+STEP 5: Docker disk usage
+
+
+STEP 6: Available C drive space
+
+Name FreeGB
+---- ------
+C      1.21
+
+
+
+STEP 7: Save original Docker configuration
+Original Docker configuration backed up.
+**********************
+Windows PowerShell transcript end
+End time: 20261107184647
+**********************

@@ -1,0 +1,143 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20261107185007
+Username: HP\HP
+RunAs User: HP\HP
+Configuration Name:
+Machine: HP (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\hassa\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 24728
+PSVersion: 5.1.26100.9818
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9818
+BuildVersion: 10.0.26100.9818
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is task_6_4_6_5_report.txt
+
+========================================
+TASK 6.4 - IMAGE SIZE AND OPTIMIZATION
+========================================
+
+1. Current Docker image size
+Current image size: 2186.29 MB
+
+2. Docker image history
+
+
+3. Docker disk usage
+
+
+4. Verify Docker build cache cleanup
+
+
+5. Verify Dockerfile optimization backup
+Original Dockerfile backup exists.
+Original requirements backup exists.
+
+6. Current C drive space
+
+Name FreeGB
+---- ------
+C      1.19
+
+
+
+7. Verify application HTTP response
+HTTP status: 200
+
+Task 6.4 analysis recorded.
+Note: Image rebuild/size reduction has NOT been performed.
+Cache cleanup reclaimed 2.112 GB.
+
+========================================
+TASK 6.5 - DOCKER OPERATIONS
+========================================
+
+1. Check running containers
+
+
+2. Check application container
+
+
+3. Check application working directory
+
+
+4. Check application files
+
+
+5. Check PostgreSQL readiness
+
+
+6. Check database connectivity from Flask container
+
+
+7. Check prediction table
+
+
+8. Display recent application logs
+
+
+9. Display recent database logs
+
+
+========================================
+TASK 6.5 - STOP AND START OPERATIONS
+========================================
+
+10. Stop only the web service
+
+
+11. Verify web service stopped
+
+
+12. Start the web service again
+
+
+13. Wait for web container health
+Health check 1 : starting
+Health check 2 : healthy
+Web service is healthy.
+
+========================================
+TASK 6.5 - RESTART AND TROUBLESHOOTING
+========================================
+
+14. Restart web service
+
+
+15. Wait for application recovery
+Recovery check 1 : starting
+Recovery check 2 : healthy
+Application recovered successfully.
+
+16. Test application HTTP response
+HTTP status: 200
+
+17. Inspect final service status
+
+
+18. Inspect final application logs
+
+
+19. Inspect final database readiness
+
+
+========================================
+TASK 6.4 AND TASK 6.5 SUMMARY
+========================================
+Task 6.4: Image analysis and cache cleanup recorded.
+Task 6.4: Image rebuild not performed.
+Task 6.5: Container operations and connectivity tested.
+Task 6.5: Stop/start and restart recovery tested.
+PostgreSQL data volume was preserved.
+Champion model was not retrained.
+
+Detailed output: task_6_4_6_5_report.txt
+**********************
+Windows PowerShell transcript end
+End time: 20261107185042
+**********************
