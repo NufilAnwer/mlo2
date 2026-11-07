@@ -1,3 +1,5 @@
+[![VisionGuard CI-CD](https://github.com/NufilAnwer/mlo2/actions/workflows/ci.yml/badge.svg)](https://github.com/NufilAnwer/mlo2/actions/workflows/ci.yml)
+
 # VisionGuard
 
 ## Project Information
@@ -41,3 +43,4 @@ designed to distinguish AI-generated images from real images.
 ## Status
 
 Project setup initiated.
+
