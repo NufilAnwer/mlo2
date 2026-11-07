@@ -1,0 +1,12 @@
+﻿{% extends "base.html" %}
+
+{% block title %}VisionGuard | Error{% endblock %}
+
+{% block content %}
+<section class="error-card">
+    <p class="eyebrow">REQUEST NOT COMPLETED</p>
+    <h1>Something went wrong</h1>
+    <p>{{ message }}</p>
+    <a class="button-link" href="{{ url_for('main.index') }}">Return to Home</a>
+</section>
+{% endblock %}

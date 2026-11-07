@@ -1,0 +1,45 @@
+﻿{% extends "base.html" %}
+
+{% block title %}VisionGuard | Image Detection{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <p class="eyebrow">IMAGE AUTHENTICITY ANALYSIS</p>
+    <h1>Is this image real or AI-generated?</h1>
+    <p class="subtitle">
+        Upload an image and let the VisionGuard MobileNetV2 model analyze it.
+    </p>
+
+    <form class="upload-card" action="{{ url_for('main.result') }}"
+          method="POST" enctype="multipart/form-data">
+
+        <label for="image">Choose an image</label>
+        <input
+            type="file"
+            id="image"
+            name="image"
+            accept=".jpg,.jpeg,.png,.webp"
+            required
+        >
+
+        <p class="hint">Supported formats: JPG, JPEG, PNG, WEBP. Maximum size: 5 MB.</p>
+
+        <button type="submit">Analyze Image</button>
+    </form>
+</section>
+
+<section class="info-grid">
+    <article class="info-card">
+        <h3>AI Detection</h3>
+        <p>Identifies whether an image is likely real or AI-generated.</p>
+    </article>
+    <article class="info-card">
+        <h3>Confidence Score</h3>
+        <p>Displays the model's confidence in its predicted class.</p>
+    </article>
+    <article class="info-card">
+        <h3>Prediction History</h3>
+        <p>Review previous predictions and their results.</p>
+    </article>
+</section>
+{% endblock %}

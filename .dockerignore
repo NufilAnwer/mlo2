@@ -1,0 +1,44 @@
+﻿# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Git
+.git/
+.gitignore
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Dataset and training files
+data/
+notebooks/
+outputs/
+mlruns/
+dvc/
+.dvc/
+*.ipynb
+
+# Local databases
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Development and documentation
+.vscode/
+.pytest_cache/
+tests/
+docs/
+images/
+docker-warmup/
+docker/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db

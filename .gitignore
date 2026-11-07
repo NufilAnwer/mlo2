@@ -41,4 +41,10 @@ mlartifacts/
 .keras_tuner/
 
 # Temporary model formats
-*.pkl
+*.pkl.env.*
+!.env.example
+venv/
+*.sqlite
+*.sqlite3
+instance/
+.dvc/cache/

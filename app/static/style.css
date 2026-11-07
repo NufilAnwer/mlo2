@@ -1,0 +1,251 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fb;
+    color: #172033;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #101a35;
+}
+
+.brand {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar nav a {
+    color: #dce5ff;
+    text-decoration: none;
+}
+
+.container {
+    width: 88%;
+    max-width: 1100px;
+    margin: 55px auto;
+    min-height: 65vh;
+}
+
+.hero,
+.result-card,
+.error-card,
+.empty-state {
+    background: white;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(20, 35, 70, 0.07);
+    text-align: center;
+}
+
+.hero h1,
+.page-heading h1,
+.result-card h1,
+.error-card h1 {
+    font-size: 36px;
+    margin: 12px 0;
+}
+
+.eyebrow {
+    color: #536de5;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #69758b;
+    line-height: 1.7;
+}
+
+.upload-card {
+    max-width: 550px;
+    margin: 35px auto 0;
+    padding: 28px;
+    border: 1px dashed #9ba9cc;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.upload-card label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.upload-card input {
+    width: 100%;
+    padding: 12px;
+    background: #f5f7fc;
+    border-radius: 8px;
+}
+
+.hint {
+    color: #758096;
+    font-size: 13px;
+}
+
+button,
+.button-link {
+    display: inline-block;
+    background: #435bd8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 22px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover,
+.button-link:hover {
+    background: #3047bd;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.info-card {
+    padding: 25px;
+    background: white;
+    border-radius: 13px;
+}
+
+.info-card p {
+    color: #69758b;
+    line-height: 1.6;
+}
+
+.result-card,
+.error-card,
+.empty-state {
+    max-width: 750px;
+    margin: auto;
+}
+
+.filename {
+    color: #69758b;
+    overflow-wrap: anywhere;
+}
+
+.prediction {
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.real-result {
+    background: #e7f8ef;
+    color: #176b40;
+}
+
+.ai-result {
+    background: #fff0e9;
+    color: #a44220;
+}
+
+.result-label {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.confidence {
+    font-size: 16px;
+}
+
+.metric {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 5px;
+    border-bottom: 1px solid #e7eaf1;
+}
+
+.page-heading {
+    margin-bottom: 25px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 15px 12px;
+    border-bottom: 1px solid #e7eaf1;
+    white-space: nowrap;
+}
+
+th {
+    background: #f5f7fc;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    color: #778198;
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        padding: 18px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container {
+        width: 92%;
+        margin: 30px auto;
+    }
+
+    .hero,
+    .result-card,
+    .error-card,
+    .empty-state {
+        padding: 25px 18px;
+    }
+
+    .hero h1,
+    .page-heading h1 {
+        font-size: 27px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar nav {
+        gap: 18px;
+    }
+}

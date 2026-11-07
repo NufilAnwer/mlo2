@@ -1,0 +1,52 @@
+﻿{% extends "base.html" %}
+
+{% block title %}VisionGuard | Prediction History{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <p class="eyebrow">YOUR RECENT ANALYSES</p>
+    <h1>Prediction History</h1>
+    <p class="subtitle">
+        The latest 100 prediction records stored in the database.
+    </p>
+</section>
+
+{% if records %}
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Filename</th>
+                <th>Prediction</th>
+                <th>Confidence</th>
+                <th>AI Probability</th>
+                <th>Model</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in records %}
+            <tr>
+                <td>{{ record["id"] }}</td>
+                <td>{{ record["filename"] }}</td>
+                <td>{{ record["predicted_label"] }}</td>
+                <td>{{ "%.2f"|format(record["confidence"] * 100) }}%</td>
+                <td>{{ "%.2f"|format(record["ai_probability"] * 100) }}%</td>
+                <td>{{ record["model_name"] }}</td>
+                <td>{{ record["created_at"] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<div class="empty-state">
+    <h2>No predictions yet</h2>
+    <p>Upload an image to create your first prediction record.</p>
+    <a class="button-link" href="{{ url_for('main.index') }}">
+        Upload an image
+    </a>
+</div>
+{% endif %}
+{% endblock %}

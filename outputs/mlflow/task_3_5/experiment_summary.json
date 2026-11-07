@@ -1,0 +1,14 @@
+{
+    "experiment_name": "VisionGuard_Task_3_5_Comparison",
+    "total_experiments": 6,
+    "selection_metric": "validation_f1",
+    "tie_breaker": "validation_loss",
+    "test_set_used_for_selection": false,
+    "seed": 42,
+    "epochs": 6,
+    "champion_run_name": "run_2_high_learning_rate",
+    "champion_run_id": "39642dc0decd482c937c9682cdb00b49",
+    "champion_validation_f1": 0.8220858845722459,
+    "champion_validation_loss": 0.45835641026496887,
+    "champion_model": "C:\\Users\\hassa\\OneDrive\\Desktop\\VisionGuard_Fresh\\23L-0532_A2_Ops\\models\\task_3_5_champion.keras"
+}
