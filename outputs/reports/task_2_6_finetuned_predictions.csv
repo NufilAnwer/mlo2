@@ -1,0 +1,149 @@
+filepath,actual_label,actual_class,predicted_label,predicted_class,ai_probability,confidence,correct
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\5c72371d88e6.jpg,0,Real,1,AI Generated,0.5146252,0.5146252,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\f11af1d7d074.jpg,1,AI Generated,1,AI Generated,0.8806916,0.8806916,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\e154cbc5cf2a.jpg,1,AI Generated,1,AI Generated,0.95846885,0.95846885,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\30a97dad1036.jpg,0,Real,0,Real,0.38709512,0.6129049,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\8a2d15320f9e.jpg,1,AI Generated,1,AI Generated,0.9835999,0.9835999,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\36cbc02d1927.jpg,0,Real,0,Real,0.45332885,0.54667115,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ec23059e28fd.jpg,1,AI Generated,1,AI Generated,0.96139383,0.96139383,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\305b141fd38f.jpg,0,Real,0,Real,0.3482258,0.65177417,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\7c9d3469c5ef.jpg,0,Real,1,AI Generated,0.8678803,0.8678803,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\dc9c676772dc.jpg,0,Real,1,AI Generated,0.8005924,0.8005924,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\4c8b90500f33.jpg,0,Real,0,Real,0.18491279,0.8150872,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\a16205d69566.jpg,0,Real,1,AI Generated,0.57146347,0.57146347,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\fec4eeb58d4d.jpg,1,AI Generated,1,AI Generated,0.7761375,0.7761375,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\4b589cd585f4.jpg,0,Real,0,Real,0.39748114,0.60251886,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\8945e14641d9.jpg,1,AI Generated,0,Real,0.37459457,0.62540543,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\4b4da580274f.jpg,0,Real,0,Real,0.02657676,0.97342324,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\d1954cc58f4a.jpg,1,AI Generated,1,AI Generated,0.9713598,0.9713598,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\9d212b3cec2d.jpg,1,AI Generated,1,AI Generated,0.7042439,0.7042439,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ba9571444cbf.jpg,1,AI Generated,1,AI Generated,0.68399614,0.68399614,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\27c33b3afdd0.jpg,1,AI Generated,1,AI Generated,0.8990667,0.8990667,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\640a11f788e6.jpg,1,AI Generated,1,AI Generated,0.7026143,0.7026143,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\6cca6882df69.jpg,1,AI Generated,1,AI Generated,0.9167927,0.9167927,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\0ed2c2674d79.jpg,1,AI Generated,1,AI Generated,0.99349093,0.99349093,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\cf97615f766f.jpg,0,Real,0,Real,0.18752672,0.8124733,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\bb5377bc1d75.jpg,1,AI Generated,0,Real,0.05113892,0.94886106,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\b368a202d89d.jpg,0,Real,1,AI Generated,0.81505245,0.81505245,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\8197cad16f93.jpg,1,AI Generated,1,AI Generated,0.8535035,0.8535035,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\5086ceb039be.jpg,0,Real,0,Real,0.060760237,0.93923974,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\8a565eddf0bd.jpg,0,Real,0,Real,0.42482662,0.5751734,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\98863ee5b2e2.jpg,1,AI Generated,1,AI Generated,0.7782712,0.7782712,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\89f293ebb37f.jpg,0,Real,0,Real,0.07607519,0.9239248,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\e13052ee5200.jpg,1,AI Generated,1,AI Generated,0.91554236,0.91554236,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\2327029131ad.jpg,1,AI Generated,1,AI Generated,0.96972483,0.96972483,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\9cf0cdeb6415.jpg,0,Real,1,AI Generated,0.98788387,0.98788387,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\1646d506b047.jpg,0,Real,0,Real,0.4408128,0.5591872,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\3352f0c5fe66.jpg,1,AI Generated,1,AI Generated,0.86648685,0.86648685,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ae576ee967ea.jpg,1,AI Generated,1,AI Generated,0.6294635,0.6294635,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\186c6681a89a.jpg,0,Real,1,AI Generated,0.77148855,0.77148855,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\4303ddfd40c9.jpg,0,Real,1,AI Generated,0.94694316,0.94694316,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\a1a2fda10650.jpg,0,Real,1,AI Generated,0.5682087,0.5682087,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\b8397de6e71d.jpg,0,Real,1,AI Generated,0.6809455,0.6809455,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ce6e7ca2c449.jpg,1,AI Generated,1,AI Generated,0.6445218,0.6445218,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\e82783fb573c.jpg,0,Real,1,AI Generated,0.5906797,0.5906797,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\da1138d9cf21.jpg,0,Real,0,Real,0.4223124,0.5776876,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\94c66b415ff8.jpg,0,Real,0,Real,0.38633117,0.6136688,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ce1e4e48bb92.jpg,1,AI Generated,0,Real,0.4680424,0.5319576,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\6977595cb3eb.jpg,0,Real,0,Real,0.465979,0.534021,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\6c4503aac548.jpg,1,AI Generated,1,AI Generated,0.73402244,0.73402244,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\5447a22dcf4f.jpg,1,AI Generated,1,AI Generated,0.8927927,0.8927927,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\11b48269a618.jpg,0,Real,1,AI Generated,0.6321361,0.6321361,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\3862b2abb064.jpg,1,AI Generated,1,AI Generated,0.98578393,0.98578393,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\1be836d1369d.jpg,1,AI Generated,1,AI Generated,0.9765074,0.9765074,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\7ef6d3fd8cda.jpg,0,Real,0,Real,0.30991095,0.69008905,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\71a6dd7a038a.jpg,0,Real,0,Real,0.1917285,0.8082715,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ee01ddee0d77.jpg,1,AI Generated,1,AI Generated,0.86242366,0.86242366,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\68344fcd10c1.jpg,1,AI Generated,1,AI Generated,0.83376104,0.83376104,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\8c758c3bbdac.jpg,1,AI Generated,1,AI Generated,0.91735,0.91735,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\a4a585e253d8.jpg,0,Real,0,Real,0.3836122,0.61638784,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ac4ac057c919.jpg,1,AI Generated,1,AI Generated,0.76188356,0.76188356,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\f8417fa48ef3.jpg,1,AI Generated,1,AI Generated,0.9834458,0.9834458,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\a9db731cfa69.jpg,0,Real,0,Real,0.134166,0.865834,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\8c008b4a39cf.jpg,1,AI Generated,0,Real,0.32256305,0.67743695,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\e02f25edaaf5.jpg,0,Real,0,Real,0.33384734,0.66615266,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\c8be57fb505d.jpg,0,Real,1,AI Generated,0.7859518,0.7859518,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\866dea9945e1.jpg,0,Real,0,Real,0.4699341,0.5300659,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\7992de05ab0b.jpg,1,AI Generated,1,AI Generated,0.9825116,0.9825116,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\613308be3872.jpg,1,AI Generated,1,AI Generated,0.80799043,0.80799043,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\aab7ce77ae02.jpg,0,Real,0,Real,0.04217053,0.9578295,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\166d9d516249.jpg,1,AI Generated,1,AI Generated,0.999694,0.999694,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\e76eece84251.jpg,0,Real,1,AI Generated,0.59059554,0.59059554,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ef542ac695db.jpg,1,AI Generated,1,AI Generated,0.9082603,0.9082603,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\4cc1e16d15b9.jpg,1,AI Generated,1,AI Generated,0.9655898,0.9655898,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\49707aebf320.jpg,1,AI Generated,1,AI Generated,0.90778124,0.90778124,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\a118cde295eb.jpg,1,AI Generated,1,AI Generated,0.98564976,0.98564976,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\1ee63f8782e6.jpg,0,Real,0,Real,0.3396926,0.6603074,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\1292c6b1f152.jpg,1,AI Generated,0,Real,0.4597846,0.5402154,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\d2cd60139c4d.jpg,1,AI Generated,1,AI Generated,0.9611615,0.9611615,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\c7d955a09e4a.jpg,0,Real,0,Real,0.38785052,0.6121495,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\bb17abbf46bd.jpg,1,AI Generated,1,AI Generated,0.89987063,0.89987063,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\cdc6e23df458.jpg,0,Real,0,Real,0.34784254,0.6521574,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\2e0e388eb5cd.jpg,0,Real,0,Real,0.21563454,0.7843655,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\f3b59bf10327.jpg,1,AI Generated,1,AI Generated,0.9396432,0.9396432,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\bf4ea6ad8010.jpg,1,AI Generated,1,AI Generated,0.9154935,0.9154935,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\b36a4d35bd72.jpg,0,Real,0,Real,0.17791907,0.8220809,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\48c5417f64ee.jpg,0,Real,0,Real,0.45062697,0.54937303,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\8d9469b1ec19.jpg,1,AI Generated,0,Real,0.30253255,0.69746745,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ef45799d52d6.jpg,1,AI Generated,1,AI Generated,0.9714177,0.9714177,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ec65e73f5636.jpg,1,AI Generated,1,AI Generated,0.96682715,0.96682715,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\408b856fdfb4.jpg,0,Real,0,Real,0.05550559,0.9444944,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\e1adb4161b93.jpg,1,AI Generated,0,Real,0.43268397,0.56731606,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\502a7ccbfa84.jpg,1,AI Generated,1,AI Generated,0.8453359,0.8453359,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\63e355f04320.jpg,0,Real,1,AI Generated,0.5410384,0.5410384,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\86c9355562d8.jpg,0,Real,1,AI Generated,0.75637686,0.75637686,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\abef990a6543.jpg,0,Real,0,Real,0.040399477,0.9596005,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\67afe107c070.jpg,1,AI Generated,1,AI Generated,0.99419355,0.99419355,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\04a1a6cdb046.jpg,1,AI Generated,0,Real,0.48025906,0.51974094,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\965e240555dc.jpg,1,AI Generated,1,AI Generated,0.67466396,0.67466396,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\0897b1560eb7.jpg,1,AI Generated,1,AI Generated,0.98809195,0.98809195,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\e47a878d100a.jpg,1,AI Generated,1,AI Generated,0.7775281,0.7775281,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\e6a7858b63be.jpg,0,Real,0,Real,0.03212102,0.967879,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\fc23601cb3ff.jpg,1,AI Generated,1,AI Generated,0.6315664,0.6315664,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\04f0a0f90c8d.jpg,0,Real,0,Real,0.012787562,0.9872124,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\86f7562eb72d.jpg,1,AI Generated,1,AI Generated,0.95321184,0.95321184,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\632dd71a4939.jpg,0,Real,1,AI Generated,0.87915695,0.87915695,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\35061b9a6850.jpg,1,AI Generated,1,AI Generated,0.9371089,0.9371089,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\ab318809bdeb.jpg,1,AI Generated,1,AI Generated,0.9994824,0.9994824,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\dc610acabe0d.jpg,0,Real,0,Real,0.4593077,0.5406923,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\2e14e5dde1e5.jpg,1,AI Generated,1,AI Generated,0.93438333,0.93438333,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\e01af17c263f.jpg,1,AI Generated,1,AI Generated,0.9942176,0.9942176,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\450784064136.jpg,1,AI Generated,1,AI Generated,0.93429804,0.93429804,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\4c29c795f567.jpg,1,AI Generated,1,AI Generated,0.86309475,0.86309475,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\5956c76b237b.jpg,1,AI Generated,0,Real,0.1898837,0.8101163,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\cb1e3c00053d.jpg,1,AI Generated,1,AI Generated,0.82946813,0.82946813,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\5c7d7aea4158.jpg,1,AI Generated,1,AI Generated,0.6426295,0.6426295,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\199374946b67.jpg,0,Real,1,AI Generated,0.9052569,0.9052569,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\e10a64b86772.jpg,0,Real,0,Real,0.18001656,0.8199834,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\7d8b6682b1a5.jpg,1,AI Generated,1,AI Generated,0.69339734,0.69339734,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\4a2b842a4533.jpg,1,AI Generated,1,AI Generated,0.87108433,0.87108433,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\eaa3a02284d7.jpg,0,Real,0,Real,0.2917475,0.7082525,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\67c5e874b43d.jpg,0,Real,0,Real,0.23657496,0.76342505,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\9c49f614cd25.jpg,0,Real,1,AI Generated,0.6947335,0.6947335,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\fe65f719fc66.jpg,0,Real,0,Real,0.08348961,0.9165104,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\5c6f36d8f176.jpg,0,Real,0,Real,0.4109163,0.5890837,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\722abeb252f0.jpg,0,Real,0,Real,0.28889573,0.7111043,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\4fa86be6977a.jpg,0,Real,1,AI Generated,0.6729158,0.6729158,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\0036de33aa27.jpg,1,AI Generated,1,AI Generated,0.9097964,0.9097964,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\67dfbcdd0797.jpg,1,AI Generated,1,AI Generated,0.7428562,0.7428562,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\378f1ebc55ba.jpg,1,AI Generated,1,AI Generated,0.88261276,0.88261276,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\f275ee6e0f42.jpg,0,Real,1,AI Generated,0.732859,0.732859,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\051a4ce8aed4.jpg,0,Real,1,AI Generated,0.5118976,0.5118976,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\6861fc3fed44.jpg,1,AI Generated,1,AI Generated,0.8175121,0.8175121,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\dca340f4e20b.jpg,1,AI Generated,1,AI Generated,0.99432963,0.99432963,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\4bd0b01a00f4.jpg,0,Real,1,AI Generated,0.8851635,0.8851635,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\7a4fa380d7ff.jpg,1,AI Generated,1,AI Generated,0.96051705,0.96051705,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\58e4a493b4ef.jpg,1,AI Generated,0,Real,0.39041686,0.60958314,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\1b88fafabb52.jpg,1,AI Generated,1,AI Generated,0.71279997,0.71279997,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\402c340b57da.jpg,0,Real,1,AI Generated,0.9849373,0.9849373,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\e1b4baba125c.jpg,1,AI Generated,1,AI Generated,0.8491276,0.8491276,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\85624451c198.jpg,0,Real,1,AI Generated,0.61922956,0.61922956,False
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\2986c259cf21.jpg,1,AI Generated,1,AI Generated,0.98933005,0.98933005,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\3125bf8d71ca.jpg,1,AI Generated,1,AI Generated,0.8015676,0.8015676,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\43d187bdf008.jpg,1,AI Generated,1,AI Generated,0.68990546,0.68990546,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\140e1dbf694a.jpg,0,Real,0,Real,0.25063863,0.7493614,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\7acfd65ee931.jpg,0,Real,0,Real,0.38048622,0.61951375,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\f591db941875.jpg,1,AI Generated,1,AI Generated,0.5536054,0.5536054,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\252abe0bfa30.jpg,1,AI Generated,1,AI Generated,0.89345545,0.89345545,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\AiArtData\c87619580bbd.jpg,1,AI Generated,1,AI Generated,0.98975646,0.98975646,True
+C:\Users\hassa\OneDrive\Desktop\VisionGuard_Fresh\23L-0532_A2_Ops\data\processed\tensorflow_images\RealArt\6e794cbf924e.jpg,0,Real,0,Real,0.1525033,0.8474967,True

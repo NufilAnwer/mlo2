@@ -1,12 +1,23 @@
+# Python environment and cache
 .venv/
 __pycache__/
 *.py[cod]
-.env
-*.log
 .pytest_cache/
 .mypy_cache/
+
+# Secrets and environment variables
+.env
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Operating system and IDE
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
 # Dataset and DVC-managed data
 data/raw/*
@@ -19,20 +30,15 @@ outputs/*
 !outputs/figures/
 !outputs/reports/
 !outputs/audit/
+!outputs/mlflow/
 
-# Model artifacts
-models/*.keras
-models/*.h5
-models/*.pkl
-
-# MLflow
+# MLflow local tracking database and directories
+*.db
 mlruns/
 mlartifacts/
 
-# IDE
-.vscode/
-.idea/
+# Temporary experiment and tuning data
+.keras_tuner/
 
-# Temporary files
-*.tmp
-*.bak
+# Temporary model formats
+*.pkl

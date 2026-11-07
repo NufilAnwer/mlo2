@@ -1,0 +1,13 @@
+{
+    "task": "Official Task 2.6 - Error Analysis",
+    "model": "MobileNetV2 Fine-Tuned",
+    "test_images": 148,
+    "misclassified_images": 35,
+    "correct_predictions": 113,
+    "accuracy": 0.7635135135135135,
+    "threshold": 0.5,
+    "selected_for_analysis": 10,
+    "false_positives_selected": 5,
+    "false_negatives_selected": 5,
+    "note": "Hypotheses are preliminary suggestions based on image characteristics. Visually inspect each image before finalizing the report."
+}

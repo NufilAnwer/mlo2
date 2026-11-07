@@ -1,0 +1,11 @@
+layer_name,layer_type,trainable,parameters
+input_image,InputLayer,True,0
+initial_rescaling,Rescaling,True,0
+data_augmentation,Sequential,True,0
+mobilenet_preprocessing,Rescaling,True,0
+mobilenetv2_1.00_160,Functional,False,2257984
+global_average_pooling,GlobalAveragePooling2D,True,0
+dropout,Dropout,True,0
+dense_features,Dense,True,81984
+classification_dropout,Dropout,True,0
+output,Dense,True,65

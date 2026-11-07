@@ -1,0 +1,8 @@
+{
+    "threshold": 0.5337902903556824,
+    "validation_f1": 0.8095238095238095,
+    "validation_precision": 0.7727272727272727,
+    "validation_recall": 0.85,
+    "validation_images": 145,
+    "selection_method": "Maximum validation F1-score"
+}
