@@ -13,9 +13,7 @@ from flask import (
 from PIL import Image, UnidentifiedImageError
 from werkzeug.utils import secure_filename
 
-import tensorflow as tf
-
-from .inference import predict_image
+import requests
 from .database import save_prediction, get_prediction_history
 
 
@@ -97,7 +95,6 @@ def result():
         ), 400
 
     original_filename = uploaded_file.filename
-
     safe_filename = secure_filename(original_filename)
 
     if not safe_filename:
@@ -115,7 +112,64 @@ def result():
             image_bytes
         )
 
-        prediction = predict_image(image_bytes)
+        api_url = current_app.config["INFERENCE_API_URL"].rstrip("/")
+        api_key = current_app.config["INFERENCE_API_KEY"]
+
+        if not api_key:
+            raise RuntimeError(
+                "AWS inference API key is not configured."
+            )
+
+        response = requests.post(
+            f"{api_url}/predict",
+            headers={
+                "X-API-Key": api_key
+            },
+            files={
+                "image": (
+                    safe_filename,
+                    image_bytes,
+                    uploaded_file.mimetype or "application/octet-stream"
+                )
+            },
+            timeout=(10, 120)
+        )
+
+        try:
+            prediction = response.json()
+        except ValueError as error:
+            raise requests.RequestException(
+                "AWS API returned an invalid response."
+            ) from error
+
+        if response.status_code == 400:
+            raise ValueError(
+                prediction.get(
+                    "error",
+                    "AWS API rejected the uploaded image."
+                )
+            )
+
+        if response.status_code != 200:
+            raise requests.RequestException(
+                prediction.get(
+                    "error",
+                    f"AWS API returned HTTP {response.status_code}."
+                )
+            )
+
+        required_fields = {
+            "label",
+            "confidence",
+            "ai_probability",
+            "threshold",
+            "model_name"
+        }
+
+        if not required_fields.issubset(prediction):
+            raise requests.RequestException(
+                "AWS API response is missing prediction fields."
+            )
 
         save_prediction(
             safe_filename,
@@ -128,17 +182,37 @@ def result():
             prediction=prediction
         )
 
-    except (
-        ValueError,
-        UnidentifiedImageError,
-        OSError,
-        tf.errors.InvalidArgumentError
-    ) as error:
+    except ValueError as error:
 
         return render_template(
             "error.html",
             message=str(error)
         ), 400
+
+    except RuntimeError as error:
+
+        return render_template(
+            "error.html",
+            message=str(error)
+        ), 503
+
+    except requests.Timeout:
+
+        return render_template(
+            "error.html",
+            message="AWS prediction service timed out. Please try again."
+        ), 504
+
+    except requests.RequestException:
+
+        current_app.logger.exception(
+            "AWS inference API request failed."
+        )
+
+        return render_template(
+            "error.html",
+            message="Could not communicate with the AWS prediction service."
+        ), 502
 
 
 @main.route("/history", methods=["GET"])
@@ -155,11 +229,32 @@ def history():
 @main.route("/health", methods=["GET"])
 def health():
 
-    return jsonify({
-        "status": "healthy",
-        "model": "loaded",
-        "model_path": current_app.config["MODEL_PATH"]
-    }), 200
+    try:
+
+        api_url = current_app.config["INFERENCE_API_URL"].rstrip("/")
+
+        response = requests.get(
+            f"{api_url}/health",
+            timeout=10
+        )
+
+        response.raise_for_status()
+
+        return jsonify({
+            "status": "healthy",
+            "inference_api": response.json()
+        }), 200
+
+    except requests.RequestException:
+
+        current_app.logger.exception(
+            "AWS inference health check failed."
+        )
+
+        return jsonify({
+            "status": "unavailable",
+            "inference_api": "unreachable"
+        }), 503
 
 
 @main.route("/upload", methods=["GET"])

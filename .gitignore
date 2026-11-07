@@ -51,3 +51,10 @@ instance/
 /models/task_3_3_mobilenetv2_best.keras
 /models/task_3_3_mobilenetv2_final.keras
 /outputs/mlflow/task_3_5/checkpoints/
+
+.env.api
+
+# Additional environment files and private keys
+.env.*
+!.env.example
+*.pem

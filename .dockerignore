@@ -42,3 +42,8 @@ docker/
 *.log
 .DS_Store
 Thumbs.db
+
+models/*
+!models/task_3_5_champion.keras
+
+.env.api

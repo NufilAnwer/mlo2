@@ -13,6 +13,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 def create_app():
 
     load_dotenv(PROJECT_ROOT / ".env")
+    load_dotenv(PROJECT_ROOT / ".env.api")
 
     app = Flask(__name__)
 
@@ -36,6 +37,16 @@ def create_app():
     )
 
     app.config["DATABASE_URL"] = os.getenv("DATABASE_URL")
+
+    app.config["INFERENCE_API_URL"] = os.getenv(
+        "VISIONGUARD_API_URL",
+        "http://3.26.146.78:8000"
+    )
+
+    app.config["INFERENCE_API_KEY"] = os.getenv(
+        "VISIONGUARD_API_KEY",
+        ""
+    )
 
     max_upload_mb = int(
         os.getenv("MAX_UPLOAD_MB", "5")

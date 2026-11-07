@@ -1,0 +1,23 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 MODEL_PATH=/app/models/task_3_5_champion.keras THRESHOLD=0.4980708956718445
+
+WORKDIR /app
+
+COPY requirements-api.txt .
+
+RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r requirements-api.txt
+
+COPY app/ ./app/
+COPY api_server.py .
+COPY models/task_3_5_champion.keras ./models/task_3_5_champion.keras
+
+RUN useradd --create-home --shell /usr/sbin/nologin appuser && chown -R appuser:appuser /app
+
+USER appuser
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=180s --retries=3 CMD ["python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"]
+
+CMD ["waitress-serve", "--listen=0.0.0.0:8000", "api_server:app"]
